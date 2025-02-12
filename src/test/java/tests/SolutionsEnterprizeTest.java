@@ -13,7 +13,7 @@ public class SolutionsEnterprizeTest {
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = false; //чтобы браузер не закрывался
+        Configuration.holdBrowserOpen = true; //чтобы браузер не закрывался
 
     }
     @Test
